@@ -34,6 +34,7 @@ class _HomepageState extends State<Homepage> {
                           ),
                     TextButton(
                         onPressed: () {
+                          controller.totalmsg = "Hi jose you are available in ";
                           controller.msg = "";
                           Navigator.of(context).push(
                             MaterialPageRoute(
